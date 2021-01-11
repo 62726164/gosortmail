@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- gosortmailrc -->
+<!-- Configure default folder, logfile and add rules below. -->
+<!-- Place this file in $HOME/.gosortmailrc -->
+<gosortmail>
+  <default>/home/user/Mail/inbox</default>
+  <logfile>/home/user/logs/gosortmail.log</logfile>
+  <rules>
+    <!-- If section contains string, move to folder. -->
+    <!-- The section can be a header (to, from, cc, subject) or the email body (body). -->
+    <rule>
+      <name>github</name>
+      <section>subject</section>
+      <contains>[github]</contains>
+      <folder>/home/user/Mail/github</folder>
+    </rule>
+    <rule>
+      <name>spam@example.com</name>
+      <section>from</section>
+      <contains>spam@example.com</contains>
+      <folder>/home/user/Mail/spam</folder>
+    </rule>
+    <rule>
+      <name>refinance</name>
+      <section>body</section>
+      <contains>refinance</contains>
+      <folder>/home/user/Mail/spam</folder>
+    </rule>
+  </rules>
+</gosortmail>
