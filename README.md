@@ -2,7 +2,7 @@
 
 gosortmail is a simple [MDA](https://en.wikipedia.org/wiki/Mail_delivery_agent) that sorts mail into [maildir](https://en.wikipedia.org/wiki/Maildir) folders based on user defined rules. It's written in Go and uses an XML configuration file.
 
-Read more about why I wrote it [here]()
+Read more about why I wrote it [here]().
 
 ## gosortmailrc
 
