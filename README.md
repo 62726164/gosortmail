@@ -29,3 +29,4 @@ xmllint --schema gosortmailrc.xsd gosortmailrc --noout
 ## Notes
 
   * I wrote gosortmail to replace my simple [procmail](https://en.wikipedia.org/wiki/Procmail) email filtering rules.
+  * It is not a complete procmail replacement.
