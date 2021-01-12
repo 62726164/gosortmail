@@ -11,8 +11,8 @@ gosortmailrc is the configuration and rules file. It must be located at /home/us
 To validate gosortmailrc, after editing, use xmllint:
 
 ```bash
-xmllint --format gosortmailrc --output gosortmailrc
-xmllint --schema gosortmailrc.xsd gosortmailrc --noout
+$ xmllint --format gosortmailrc --output gosortmailrc
+$ xmllint --schema gosortmailrc.xsd gosortmailrc --noout
 ```
 
 ## Example rule
