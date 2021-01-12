@@ -26,6 +26,14 @@ xmllint --schema gosortmailrc.xsd gosortmailrc --noout
 </rule>
 ```
 
+## To use with getmail
+
+```bash
+[destination]
+type = MDA_external
+path = /usr/local/bin/gosortmail
+```
+
 ## Notes
 
   * I wrote gosortmail to replace my simple [procmail](https://en.wikipedia.org/wiki/Procmail) email filtering rules.
